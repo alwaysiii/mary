@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<style type="text/css">
+			
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			ul,li{
+				list-style: none;
+			}
+			.container{
+				width: 1200px;
+				margin: 0 auto;
+				background: url(img/body-bg.jpg) no-repeat;
+				padding: 20px;
+				background-size: 100% 2000px;
+			}
+			header{
+				position: relative;
+				color: #FFFFFF;
+			}
+			header h2{
+				margin: 5px 0;
+			}
+			nav{
+				margin: 20px 0;
+				border-radius: 10px;
+				height: 40px;
+				width: 100%;
+				background: -webkit-linear-gradient(left,#666,#ccc);
+			}
+			nav ul{
+				margin-left: 10px;
+			}
+			nav li{
+				float: left;
+				line-height: 40px;
+				color: #FFFFFF;
+				padding: 0 10px;
+				
+			}
+			nav li:hover{
+				color: #026ACB;
+			}
+			nav input{
+				width: 150px;
+				height: 27px;
+				border-radius: 7px;
+				float: right;
+				padding-left: 5px;
+				margin-top: 4px;
+				margin-right: 10px;
+			}
+			main{overflow: hidden;}
+			.left{
+				width: 65%;
+				background: #fff;
+				border-radius: 10px;
+				padding: 10px 20px;
+				float: left;
+			}
+			.left span{display: block;font-size: 12px;color: #CCCCCC;}
+			.banner img{
+				margin: 20px 0;
+				width: 100%;
+			}
+			.left p{font-size: 14px;}
+			.right{width: 29%;float: right;}
+			.right-top{
+				padding: 10px; 
+				background: #FFFFFF;
+				border-radius: 10px;
+			}
+			.right-top h3{
+				padding-bottom: 5px;
+				
+			}
+			.right-top li{
+				padding: 5px 0;
+				border-bottom: 1px solid #CCCCCC;
+			}
+			.right-top li:nth-child(1){
+				border-top: 1px solid #CCCCCC;
+			}
+			.right-top li:nth-child(3){
+				border: none;
+			}
+			.right-bottom{
+				margin-top: 30px;
+				width: 93%;
+				border-radius: 10px;
+				padding: 15px 10px;
+				background: #FFFFFF;
+			}
+			.right-bottom img{
+				width: 20%;
+				height:20%;
+				margin: 5px;
+			}
+			footer{color: #FFFFFF;margin-top: 30px;}
+			@media only screen and (max-width: 1920px) {
+				.container{
+				    width:95%;
+			}
+				nav{
+					width: 100%;
+					
+				}
+				.banner1 img{
+					width: 100%;
+				}
+			}
+			@media only screen  and (max-width: 980px) {
+				.search{
+					position: absolute;
+					right: 10px;
+					top: 20px;
+				}
+			}
+			@media only screen and (max-width:640px ) {
+				.right{
+					display: flex;
+					flex-wrap: wrap;
+					width: 90%;
+					
+					float: none;
+					
+				}
+				.left{margin-bottom: 20px;}
+				.right-top{
+					width:90%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h2>变色龙视觉传媒</h2>
+				<h6>无生活，不设计</h6>
+			</header>
+			<nav>
+				<ul>
+					<li>首页</li>
+					<li>理念</li>
+					<li>作品</li>
+					<li>团队</li>
+				</ul>
+				<input type="text"placeholder="Search" class="search"/>
+			</nav>
+			<main>
+				<div class="left">
+					<h2>圆形风格的移动案例 <span>Oct-27-2017</span></h2>
+				   
+				    <div class="banner">
+				    	<img src="img/sample-image.jpg"/>
+				    </div>
+				    <p>
+				    	圆形被认为是能够被人眼最快识别出的对象之一。这就意味着我们的大脑有能力
+				    	处理在圆形中的信息比处理在常规的三角或矩形中的数据略快一些。对于小型的
+				    	以手势为基础的交互界面中，这种能力真的非常关键。这一点对移动设备来说尤
+				    	为典型，在大多数的情况下，这成为了选择基本UI元素形状的决定性因素。赏心
+				    	悦目的曲线取代了尖锐边缘，有助于营造一种温暖舒适的气氛，让感观愉悦。它
+				    	有效地增强了用户体验，让交互界面简单而明了。 选择圆形一个最普通的原因就
+				    	是它模仿指尖的形状的能力下意识也将圆形元素与按钮联系在一起。因此，作为
+				    	一条规律，你很容易发现行为召唤的按钮（call-to-action buttons）应
+				    	用在环形结构后，有相当一部分应用程序大肆地在设计中使用这一形状。例如，
+				    	音乐导向的应用，或者是可视化的闹钟以及时钟都离不开环形结构。 本文的选例
+				    	都是带有明确的圆形风格的移动交互界面，这些界面自然地融入了UI流畅性，更
+				    	多的可用性和吸引力。 Eli Williamson设计的Lock Screen Concept使
+				    	用绚丽的相片背景来吸引用户的注意力。紧凑的排版，醒目的圆形图案以及主体
+				    	的白色给应用增加了雅致与空间感。
+
+				    </p>
+				    <div class="banner1">
+				    	<img src="img/2300334P9-4.jpg"/>
+				    </div>
+				</div>
+				<div class="right">
+					<div class="right-top">
+						<h3>最近更新</h3>
+					<ul>
+						<li>快讯</li>
+						<li>设计</li>
+						<li>建议</li>
+					</ul>
+					</div>
+					<div class="right-bottom">
+						<h3>作品展示</h3>
+						<img src="img/ps.jpg"/>
+						<img src="img/ae.jpg"/>
+						<img src="img/dw.jpg"/>
+						<img src="img/fl.jpg"/>
+						<img src="img/ai.jpg"/>
+						<img src="img/fw.jpg"/>
+						<img src="img/id.jpg"/>
+						<img src="img/pr.jpg"/>
+					</div>
+					
+				</div>
+			</main>
+			<footer>
+				web design by sharwoo
+			</footer>
+		</div>
+	</body>
+</html>
